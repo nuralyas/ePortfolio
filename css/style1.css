@@ -16,7 +16,22 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+header h1 {
+    margin: 0; /* Remove default margin */
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px 20px; 
+    }
+}
+
 
 a {
     color: #fff;

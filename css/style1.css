@@ -83,7 +83,6 @@ footer {
     flex-grow: 1; 
 }
 .about-section {
-    display: flex;
     padding: 20px;
     margin: 20px 0;
     background-color: #f9f9f9;
@@ -92,6 +91,10 @@ footer {
 
 .about-section h2 {
     color: #333;
+}
+.about-section img {
+    max-width: 100%; 
+    height: auto;
 }
 
 .about-nav {
